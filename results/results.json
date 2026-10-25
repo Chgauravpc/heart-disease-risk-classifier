@@ -1,0 +1,87 @@
+{
+  "svm": {
+    "best_params": {
+      "svc__C": 1,
+      "svc__gamma": 0.01
+    },
+    "cv_acc": 0.8415458937198068,
+    "test_acc": 0.7631578947368421,
+    "confusion_matrix": [
+      [
+        22,
+        13
+      ],
+      [
+        5,
+        36
+      ]
+    ]
+  },
+  "logreg": {
+    "best_params": {
+      "logisticregression__C": 0.0379269019073225
+    },
+    "cv_acc": 0.8325603864734299,
+    "test_acc": 0.75,
+    "confusion_matrix": [
+      [
+        22,
+        13
+      ],
+      [
+        6,
+        35
+      ]
+    ]
+  },
+  "best_tuned": "SVM",
+  "split": {
+    "train": 227,
+    "test": 76
+  },
+  "target_correlation": {
+    "exang": -0.437,
+    "oldpeak": -0.431,
+    "ca": -0.392,
+    "thal": -0.344,
+    "sex": -0.281,
+    "age": -0.225,
+    "trestbps": -0.145,
+    "chol": -0.085,
+    "fbs": -0.028,
+    "restecg": 0.137,
+    "slope": 0.346,
+    "thalach": 0.422,
+    "cp": 0.434
+  },
+  "rf_importance": {
+    "fbs": 0.007,
+    "restecg": 0.02,
+    "sex": 0.03,
+    "exang": 0.063,
+    "slope": 0.064,
+    "trestbps": 0.069,
+    "age": 0.073,
+    "chol": 0.079,
+    "ca": 0.08,
+    "thalach": 0.114,
+    "thal": 0.12,
+    "oldpeak": 0.123,
+    "cp": 0.158
+  },
+  "permutation_importance": {
+    "chol": -0.011,
+    "slope": -0.011,
+    "age": -0.01,
+    "cp": -0.007,
+    "exang": -0.007,
+    "restecg": -0.004,
+    "fbs": -0.001,
+    "oldpeak": 0.006,
+    "trestbps": 0.01,
+    "thal": 0.011,
+    "thalach": 0.021,
+    "sex": 0.026,
+    "ca": 0.048
+  }
+}

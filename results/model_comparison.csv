@@ -1,0 +1,7 @@
+Model,CV acc (mean),Test acc,Precision,Recall,F1,ROC-AUC
+Logistic Regression,0.828,0.763,0.745,0.854,0.795,0.847
+KNN (k=5),0.819,0.763,0.745,0.854,0.795,0.837
+SVM (RBF),0.828,0.763,0.745,0.854,0.795,0.846
+Decision Tree,0.802,0.737,0.733,0.805,0.767,0.753
+Random Forest,0.841,0.803,0.783,0.878,0.828,0.879
+Gradient Boosting,0.802,0.763,0.745,0.854,0.795,0.845
